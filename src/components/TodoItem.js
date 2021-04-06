@@ -13,7 +13,7 @@ const handleClickChecBox = (key) => {
     }
 };
 
-function TodoItem({item}) {
+function TodoItem({item} ) {
   return (
     <label className="panel-block" id={item.key}>
             <input type="checkbox" onClick={() => handleClickChecBox(item.key)}/>
